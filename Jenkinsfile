@@ -23,7 +23,7 @@ pipeline {
             steps {
                 sh """
                     echo "Running the shell script"
-                    env "$GREETING"
+                    echo "$GREETING"
                 """
             }
         }
